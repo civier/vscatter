@@ -29,6 +29,9 @@ function [x,y] = vscatter(vals,MARKER_SIZE)
     % axis equal
     %
     %
+    % Date: 21 Aug 2016 	
+    % Version: 	1.6.0.0
+    % Author: Oren Civier
 
     % if marker size not specific, use a reasonable    
     if ~exist('MARKER_SIZE')
