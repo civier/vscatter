@@ -24,8 +24,11 @@ function [x,y] = vscatter(vals,MARKER_SIZE)
     %
     % USAGE EXAMPLE:
     %
-    % [x,y] = vscatter(vec)
-    % plot(x,y,'o')
+    % [x1,y1] = vscatter(vec1)
+    % plot(x1,y1,'ob')
+    % hold on
+    % [x2,y2] = vscatter(vec2)
+    % plot(x2,y2,'or')
     % axis equal
     %
     %
